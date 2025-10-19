@@ -11,5 +11,5 @@ The code has not been made universal yet, for now it can be found in MY-CODE.yam
       - TODO
       - TODO
 ### Software:
-      - Change "" to your home assistant/esphome API
-      - Change "" to your ESPHOME OTA password
+      - Change "HA-ENCRYPTION-KEY" to your home assistant/esphome API
+      - Change "ESPHOME-OTA-PWD" to your ESPHOME OTA password
