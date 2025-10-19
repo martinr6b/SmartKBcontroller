@@ -1,36 +1,27 @@
 esphome:
   name: keyboard
   friendly_name: keyboard
-
+  
 esp32:
   board: esp32dev
   framework:
     type: arduino
-
-
-
-# Enable logging
 logger:
-
-# Enable Home Assistant API
 api:
   encryption:
-    key: "HA-ENCRYPTION-KEY"
-
+    key: "HA-ENCRYPTION-KEY" # CHANGE THIS
 ota:
   - platform: esphome
-    password: "ESPHOME-OTA-PWD"
-
+    password: "ESPHOME-OTA-PWD" # CHANGE THIS
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Keyboard Fallback Hotspot"
-    password: "XiNWRHAhlh0A"
+    password: "XiNWRHAhlh0A" # CHANGE THIS
 
 captive_portal:
+# END ESPHOME SETUP PART
     
 matrix_keypad:
   id: mykeypad
