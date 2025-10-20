@@ -1,6 +1,9 @@
 esphome:
   name: keyboard
   friendly_name: keyboard
+  on_boot: 
+    then:
+      - light.turn_on: yell0w
   
 esp32:
   board: esp32dev
@@ -16,6 +19,9 @@ ota:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  on_connect: 
+    then:
+      - light.turn_off: yell0w
   ap:
     ssid: "Keyboard Fallback Hotspot"
     password: "XiNWRHAhlh0A" # CHANGE THIS
