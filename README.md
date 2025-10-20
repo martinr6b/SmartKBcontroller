@@ -10,8 +10,20 @@ The code has not been made universal yet, for now it can be found in MY-CODE.yam
 
 ## How-to:
 ### Hardware:
-- [BOM (bill of materials) ](V1/HARDWARE/BOM.md)
-- TODO
+- Make sure you have all required hardware. [BOM (bill of materials) ](V1/HARDWARE/BOM.md)
+
 ### Software:
 - Change "HA-ENCRYPTION-KEY" to your home assistant/esphome API
 - Change "ESPHOME-OTA-PWD" to your ESPHOME OTA password
+
+
+
+# TODO:
+- get good formatting
+- decide on free/paid
+- add KoFi
+- Make a build video
+- Make a build tutorial
+- Make a schematic
+- Add code versions
+- Fix MISC
