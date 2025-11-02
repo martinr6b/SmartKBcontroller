@@ -1,2 +1,2 @@
-## This is the MINIMAL version of the SmartKBcontroller
+## This is the MINIMAL version of the V1 SmartKBcontroller
 

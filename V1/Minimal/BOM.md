@@ -1,0 +1,7 @@
+- [ESP32](https://www.aliexpress.com/item/1005006816356006.html)
+- [LI-ION charging module](https://www.aliexpress.com/item/1005006861052138.html)
+- Keyboard switches ([i used Kalih black](https://www.aliexpress.com/item/1005004292258527.html)) 18X needed
+- Low profile keycaps (couldn't find the ones i have online)
+- 3.7V LI-ION battery (i used 2 18560 batteries in parralel)
+- [Male and female connectors for easy maintenance](https://www.aliexpress.com/item/1005005491577017.html) (optional)
+- Wires
