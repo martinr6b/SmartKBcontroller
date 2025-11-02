@@ -1,4 +1,5 @@
 # CODE VERSION: V1.0.1
+# CODE EDITION: MINIMAL
 esphome:
   name: keyboard
   friendly_name: keyboard
@@ -45,33 +46,6 @@ matrix_keypad:
     - pin: GPIO14
   keys: "qwertyuiopasdfghjk"
     
-output:
-  - platform: ledc
-    id: L0x0ledR
-    pin: GPIO4
-  - platform: ledc
-    id: L1x0ledR
-    pin: GPIO2
-  - platform: ledc
-    id: L0x5ledY
-    pin: GPIO16
-  - platform: ledc
-    id: L1x5ledG
-    pin: GPIO17
-
-light:
-  - platform: monochromatic
-    output: L0x0ledR
-    name: red led 0x0 
-  - platform: monochromatic
-    output: L1x0ledR
-    name: red led 1x0
-  - platform: monochromatic
-    output: L0x5ledY
-    name: yellow led 0x5 
-  - platform: monochromatic
-    output: L1x5ledG
-    name: green led 1x5
 
 binary_sensor:
 # ROW 0

@@ -1,4 +1,5 @@
 # CODE VERSION: V1.0.1
+# CODE EDITION: FULL
 esphome:
   name: keyboard
   friendly_name: keyboard
